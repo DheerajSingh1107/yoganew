@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         strengthLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,FlexibilityActivity.class);
+                Intent intent = new Intent(MainActivity.this,StrengthActivity.class);
                 startActivity(intent);
                 Toast.makeText(MainActivity.this,"Working successfully",Toast.LENGTH_LONG).show();
             }
@@ -71,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
         balanceLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,BalanceActivity.class);
+                startActivity(intent);
                 Toast.makeText(MainActivity.this,"Working balance successfully",Toast.LENGTH_LONG).show();
 
 
@@ -79,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
         flexibilityLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,FlexibilityActivity.class);
+                startActivity(intent);
                 Toast.makeText(MainActivity.this,"Working flexibility successfully",Toast.LENGTH_LONG).show();
 
 
