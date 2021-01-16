@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private List<AuthUI.IdpConfig> providers;
     private Button logoutButton , goToVideo;
     StorageReference storageReference;
-    LinearLayout strengthLayout;
+    LinearLayout strengthLayout , balanceLayout, flexibilityLayout;
 
 
 
@@ -58,10 +58,30 @@ public class MainActivity extends AppCompatActivity {
         logoutButton = findViewById(R.id.logout_Button);
         goToVideo = findViewById(R.id.showButton);
         strengthLayout = findViewById(R.id.strengthLayout);
+        balanceLayout= findViewById(R.id.balance_Layout);
+        flexibilityLayout = findViewById(R.id.flexibilityLayout);
         strengthLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,FlexibilityActivity.class);
+                startActivity(intent);
                 Toast.makeText(MainActivity.this,"Working successfully",Toast.LENGTH_LONG).show();
+            }
+        });
+        balanceLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"Working balance successfully",Toast.LENGTH_LONG).show();
+
+
+            }
+        });
+        flexibilityLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"Working flexibility successfully",Toast.LENGTH_LONG).show();
+
+
             }
         });
 

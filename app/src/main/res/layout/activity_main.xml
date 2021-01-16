@@ -19,7 +19,7 @@
     <RelativeLayout
         android:id="@+id/header_relavitveLayout"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="250dp"
         android:background="@drawable/layoutheaderimage"
         android:layout_margin="5dp"
 
@@ -34,6 +34,7 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold|italic"
+
 
             />
         <TextView
@@ -60,36 +61,40 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:src="@drawable/strength"
+            android:src="@drawable/strengthsqure"
             />
         <RelativeLayout
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_weight="0.6"
             android:orientation="vertical"
+            android:layout_marginLeft="10dp"
             >
+
             <TextView
                 android:id="@+id/strengthText"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="Strength"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
+                android:text="Strength"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:layout_marginLeft="10dp"
 
 
                 />
             <TextView
                 android:id="@+id/strengthTextDetails"
-                android:layout_width="150dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="200dp"
+
                 android:layout_height="wrap_content"
                 android:text="A combination of Power yoga that will help you build your body strength."
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:textSize="13dp"
                 android:layout_below="@+id/strengthText"
+                android:layout_marginLeft="10dp"
 
 
 
@@ -119,29 +124,32 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.6"
                 android:orientation="vertical"
+                android:layout_marginLeft="10dp"
                 >
                 <TextView
                     android:id="@+id/balanceText"
-                    android:layout_width="100dp"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:text="Balance"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
 
 
                     />
                 <TextView
                     android:id="@+id/balanceTextDetails"
-                    android:layout_width="150dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_height="wrap_content"
                     android:text="Different yoga Styles are combined that are focused to improve your balance."
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
                     android:textSize="13dp"
                     android:layout_below="@+id/balanceText"
+
 
 
 
@@ -169,10 +177,11 @@
             android:layout_height="match_parent"
             android:layout_weight="0.6"
             android:orientation="vertical"
+            android:layout_marginLeft="10dp"
             >
             <TextView
                 android:id="@+id/flexibilityText"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="Flexibility"
                 android:layout_centerHorizontal="true"
@@ -184,14 +193,14 @@
                 />
             <TextView
                 android:id="@+id/flexibilityTextDetails"
-                android:layout_width="150dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="You focus how you breath, on your muscle recovery and flexibility of your body."
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:textSize="13dp"
                 android:layout_below="@+id/flexibilityText"
+
 
 
 
