@@ -12,7 +12,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+    android:layout_margin="5dp"
     android:scrollbars="vertical"
     tools:context=".MainActivity">
 
@@ -54,7 +54,7 @@
         android:id="@+id/strengthLayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-
+        android:layout_margin="5dp"
         android:orientation="horizontal"
         >
         <ImageView
@@ -76,11 +76,12 @@
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Strength"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_marginLeft="10dp"
+
 
 
                 />
@@ -109,7 +110,7 @@
             android:id="@+id/balance_Layout"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-
+            android:layout_margin="5dp"
             android:orientation="horizontal"
 
             >
@@ -132,7 +133,7 @@
                     android:layout_height="wrap_content"
                     android:text="Balance"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
@@ -162,7 +163,7 @@
         android:id="@+id/flexibilityLayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-
+        android:layout_margin="5dp"
         android:orientation="horizontal"
 
         >
@@ -185,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:text="Flexibility"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
 

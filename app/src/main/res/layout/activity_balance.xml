@@ -50,11 +50,12 @@
 
         </RelativeLayout>
         <LinearLayout
-            android:id="@+id/FlexibilitystrengthLayout"
+            android:id="@+id/BalanceBeginnerLayout"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal"
+
             >
             <ImageView
                 android:layout_width="1dp"
@@ -74,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:text="Let's Start with light Exersice"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+
                     android:textSize="15sp"
                     android:textStyle="bold"
 
@@ -101,10 +102,10 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/Flexibilitybalance_Layout"
+            android:id="@+id/BalanceIntermediateLayout"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal"
 
             >
@@ -126,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:text="Step a more difficult exersice"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+
                     android:textSize="15sp"
                     android:textStyle="bold"
 
@@ -151,10 +152,10 @@
             </RelativeLayout>
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/FlexibilityflexibilityLayout"
+            android:id="@+id/BalanceAdvanceLayout"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal"
 
             >
@@ -176,7 +177,7 @@
                     android:layout_height="wrap_content"
                     android:text="Difficult exercises"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
+
                     android:textSize="15sp"
                     android:textStyle="bold"
 
