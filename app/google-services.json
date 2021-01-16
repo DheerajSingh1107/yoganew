@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "737326045307",
+    "project_id": "yogai-bddb8",
+    "storage_bucket": "yogai-bddb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737326045307:android:a089c3ffa7e9a4f8d9aade",
+        "android_client_info": {
+          "package_name": "com.yogai.yogai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737326045307-cbbe6uovhg3cbnsad1fa2ud6fgnhni4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8PQg1m_FE1vJKeCS69vuA4pjrnFCmd2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737326045307-cbbe6uovhg3cbnsad1fa2ud6fgnhni4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
